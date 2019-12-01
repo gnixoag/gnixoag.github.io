@@ -10,7 +10,9 @@ PATH = 'content'
 
 #插件
 PLUGIN_PATHS = ['D:\\webpage\\pelican-plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites','plantuml','tipue_search','neighbors','series',
+	    'render_math',
+	    'extract_toc','summary','sitemap','gzip_cache']
 
 #主题设置
 THEME = 'D:\\webpage\\pelican-themes\\pelican-bootstrap3'
@@ -53,8 +55,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('国内博客', 'https://gnix_oag.coding.me/home/'),
-         ('国外博客', 'https://gnixoag.github.io/'),
+LINKS = (('国内博客', 'http://gnix_oag.coding.me/home/'),
+         ('国外博客', 'http://gnixoag.github.io/'),
          ('工作单位', 'http://www.hnxxjsxy.com'),)
 
 # Social widget
